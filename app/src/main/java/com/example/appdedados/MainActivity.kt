@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -37,17 +38,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun rolarDados(lados: Int) {
 
-        val valor = (1..lados).random()
-
-        val textResultado = findViewById<TextView>(R.id.textResultado)
-
-        textResultado.text = valor.toString()
-
-    }
-
-    override fun onStart() {
+    /*override fun onStart() {
         super.onStart()
         Log.d("CicloDeVida","onStart()")
     }
@@ -67,8 +59,7 @@ class MainActivity : AppCompatActivity() {
         super.onRestart()
         Log.d("CicloDeVida","onRestart()")
     }
-
-
+*/
 
         /*val imageResourse = imagemD20(valor)
 

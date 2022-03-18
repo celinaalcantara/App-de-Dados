@@ -6,25 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imagemD20"
-        android:layout_width="492dp"
-        android:layout_height="903dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/henrique2"
-        android:contentDescription="@string/todo" />
-
     <Button
         android:id="@+id/buttonD20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="130dp"
+        android:backgroundTint="#0074B9"
         android:text="@string/d20"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,8 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="130dp"
+        android:backgroundTint="#0074B9"
         android:text="@string/d12"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonD20"
         app:layout_constraintStart_toEndOf="@+id/buttonD6" />
@@ -47,30 +37,23 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="38dp"
         android:layout_marginBottom="130dp"
+        android:backgroundTint="#0074B9"
         android:text="@string/d6"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        android:textColorLink="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/text20"
-        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="93dp"
-        android:layout_marginTop="332dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:fontFamily="@font/source_serif_pro_bold"
-        android:inputType="number"
-        android:text="@string/textResultado"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#160A33"
-        app:guidelineUseRtl="true"
-        app:layout_constraintStart_toStartOf="@+id/imagemD20"
-        app:layout_constraintTop_toTopOf="@+id/imagemD20"
-        tools:text="1" />
+    <ImageView
+        android:id="@+id/imageMasc"
+        android:layout_width="676dp"
+        android:layout_height="889dp"
+        android:contentDescription="@string/imageMasc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fundomasc2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
