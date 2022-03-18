@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">App de Dados</string>
+    <string name="textResultado" />
     <string name="d6">D6</string>
+    <string name="d12">D12</string>
+    <string name="d20">D20</string>
+    <string name="todo">TODO</string>
+    <string name="voltar">Voltar</string>
+    <string name="botao20">1</string>
+    <string name="textResposta">Você tirou um:</string>
 </resources>
